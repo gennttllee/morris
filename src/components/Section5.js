@@ -6,7 +6,7 @@ import './section5.css'
 export default function Section5() {
     return (
         <div id='upcoming' className='section5'>
-            <h2 className='section5h1'>Upcoming Gigs</h2>
+            <h2 className='section5h1'>Gigs</h2>
             <div className='section5div'>
                 <div className='section5box'>
                     <img className='section5img' src={groove} alt='groove' />

@@ -10,19 +10,19 @@
 
 .section5box{
     width: fit-content;
-    margin: 1rem  0;
+    margin: 1rem  1rem 1rem 0;
 }
 
 .section5div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:space-between;
 }
 
 .p5{
     color: #F94C66 ;
     font-size: 1.3rem;
-    margin: 1rem 0 0;
+    margin: .1rem 0 0;
 }
 
 .p7{
@@ -44,10 +44,18 @@
         font-size: 2.5rem;
     }
 
+    .section5div{
+        justify-content:flex-start;
+    }
+
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width : 600px) and (max-width: 1200px) {
     .section5{
         width: 100%;
+    }
+
+    .section5div{
+        justify-content: space-evenly;
     }
 }
