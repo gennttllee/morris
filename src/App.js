@@ -8,12 +8,15 @@ import Section6 from './components/Section6';
 import Section7 from './components/Section7';
 import Footer from './Footer';
 import './App.css';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import video from '../src/assets/morrisvideo.mp4'
 
 
 function App() {
   const [vid, setVid] = useState(true)
+  const vidRef=useRef();
+
+  useEffect(() => { vidRef.current.play(); },[]);
 
   setTimeout(() => {
     setVid(false)
@@ -22,7 +25,7 @@ function App() {
   return (
     <div className="app">
       {vid ? <div className='video'>
-        <video autoPlay muted width='100%' height='100%'>
+        <video   ref={ vidRef } autoPlay loop muted width='100%' height='100%'>
           <source src={video} type="video/mp4" />
         </video>
       </div> : <div className='animator'>
