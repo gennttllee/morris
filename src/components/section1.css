@@ -34,6 +34,8 @@
 .floater {
     justify-self: flex-start;
     align-self: flex-end;
+    width: 0;
+    z-index: 1;
 }
 
 .words {
@@ -43,6 +45,7 @@
     height: 90%;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .word{
@@ -178,10 +181,12 @@
 
     .word{
         width: 100%;
+        margin: 0 auto;
     }
 
     .words{
         width: 90%;
+        margin: 0 auto;
     }
 
     .floater{
