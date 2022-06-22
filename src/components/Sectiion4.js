@@ -23,7 +23,7 @@ export default function Sectiion4() {
   }
   return (
     <div id='gallery' className='section4'>
-      <h1 className='photos'>Photos and Videos</h1>
+      <h1 className='photos'>DJ Gallery</h1>
       {show ? <div>
         <button className='section4btn' onClick={() => setShow(false)}>Close</button>
         <img onClick={() => setShow(false)} src={picture} alt='pictures' />
