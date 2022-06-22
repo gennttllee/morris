@@ -65,11 +65,12 @@
     }
 
     .input{
-        width: 60%;
+        width: 80%;
+        height: 3rem;
     }
 
     .text{
-        width: 60%;
+        width: 80%;
     }
 
     .section7h1{
