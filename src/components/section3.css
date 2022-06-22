@@ -9,6 +9,10 @@
     margin: 0 0 1rem;
 }
 
+.btn9{
+    margin: 0 1rem 1rem 0;
+}
+
 .section3main{
     display: flex;
     justify-content: space-between;

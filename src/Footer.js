@@ -6,9 +6,9 @@ export default function Footer() {
             <div className='footerDiv'>
                 <div className='footerFirst'>
                     <h1 className='footerH1'>Contacts</h1>
-                    <p>+1 123 456 7890</p>
+                    <p>+234 802 966 6379</p>
                     <p> Djmakenzee@gmail.com </p>
-                    <p>Alex Doe / Booking Agent</p>
+                    <p>Morris Makenzee / Booking Agent</p>
                 </div>
                 <div className='footerSecond'>
                     <h1 className='footerH1'>Follow Me</h1>
@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <div className='footerDiv2'>
                 <p>
-                    <span className="fa fa-copyright"></span><span className='makenzee'> DJ Morris Makenzee</span> Created and powered by <a target='blank' href='https://www.mwprofile.com/'> Mark Williams</a></p>
+                    <span className="fa fa-copyright"></span><span className='makenzee'> DJ Morris Makenzee</span> Created and powered by <a className='mark' target='blank' href='https://www.mwprofile.com/'> Mark Williams</a></p>
                 <span className="material-symbols-outlined triangle1">
                     change_history
                 </span>
