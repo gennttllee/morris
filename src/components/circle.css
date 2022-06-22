@@ -1,0 +1,16 @@
+.circle{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 100%;
+    background-color: #F94C66;
+    border: 7rem solid antiquewhite;
+}
+
+@media screen and (max-width : 1200px) {
+    .circle{
+        width: 6rem;
+        height: 6rem;
+        margin: 1rem;
+        border: 5rem solid antiquewhite;
+    }
+}

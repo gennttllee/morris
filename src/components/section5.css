@@ -1,0 +1,53 @@
+.section5{
+    color: white;
+    margin: 2rem auto;
+    width: 70%;
+}
+
+.section5img{
+    width: 20rem;
+}
+
+.section5box{
+    width: fit-content;
+    margin: 1rem  0;
+}
+
+.section5div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.p5{
+    color: #F94C66 ;
+    font-size: 1.3rem;
+    margin: 1rem 0 0;
+}
+
+.p7{
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.section5h1{
+    font-size: 3.5rem;
+    margin: 2rem 0 1rem;
+}
+
+@media screen and (max-width :800px) {
+    .section5{
+        width: 100%;
+    }
+
+    .section5h1{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .section5{
+        width: 100%;
+    }
+}

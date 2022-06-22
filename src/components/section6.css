@@ -1,0 +1,73 @@
+.section6{
+    color: white;
+    width: 70%;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem auto 1rem;
+    background: url('../assets/morris.PNG'), rgba(27, 26, 26, 0.71);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+.section6h1{
+    font-size: 3.5rem;
+    margin: 2rem 0 1rem;
+}
+
+.play{
+    font-size: 12rem;
+    align-self: flex-end;
+}
+
+.p6{
+    margin: 0;
+    color: #F94C66 ;
+}
+
+.anchor{
+    display: flex;
+    color: antiquewhite;
+    width: fit-content;
+    margin: 1rem 0;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.track{
+    width: 29rem;
+    height: 10rem;
+}
+
+@media screen and (max-width : 800px) {
+    .section6{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .section6h1{
+        font-size: 2.5rem;
+    }
+
+    .play{
+        font-size: 6rem;
+    }
+
+    .track{
+        width: 18rem;
+        height: 6rem;
+    }
+
+    .anchor{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width : 1200px) {
+    .section6{
+        width: 100%;
+    }
+}

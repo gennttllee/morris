@@ -1,0 +1,21 @@
+.btn3 {
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    background-color: #F94C66;
+    color: white;
+    display: block;
+}
+
+.btn3:hover {
+    background-color: antiquewhite;
+    color: red;
+}
+
+@media screen and (max-width : 800px) {
+    .btn3 {
+        width: 12rem;
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,16 @@
+.round{
+    background-color: antiquewhite;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    display: block;
+    margin: 1.5rem;
+}
+
+@media screen and (max-width : 1200px) {
+    .round{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 1rem;
+    }
+}

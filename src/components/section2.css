@@ -1,0 +1,120 @@
+.section2{
+    display: flex;
+    color: white;
+    width: 70%;
+    margin: 4rem auto;
+    align-items: center;
+}
+
+.morris1{
+    width: 40%;
+}
+
+.biography{
+    font-size: 3.5rem;
+}
+
+.p2{
+    font-size: 1.3rem;
+}
+
+.divide{
+    display: flex;
+}
+
+.bio{
+    align-self: center;
+}
+
+.dotted{
+    align-self: flex-end;
+}
+
+.btn1{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    background-color:#F94C66 ;
+    color: white;
+}
+.btn1:hover{
+    background-color:antiquewhite;
+    color: red;
+}
+
+@media screen and (max-width : 800px) {
+    .section2{
+        width: 100%;
+        display: block;
+    }
+
+    .morris1{
+        display: none;
+    }
+
+    .biography{
+        font-size: 2.5rem;
+    }
+
+    .p2{
+        font-size: 1.1rem;
+    }
+
+    .bio{
+        width: 80%;
+    }
+
+    .dotted{
+        width: 10%;
+        z-index: 2;
+    }
+
+    .divide{
+        width: 100%;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen  and (min-width : 800px ) and (max-width : 1200px){
+    .section2{
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    .morris1{
+        display: none;
+    }
+
+    .biography{
+        font-size: 2.5rem;
+    }
+
+    .p2{
+        font-size: 1.1rem;
+    }
+
+    .bio{
+        width: 80%;
+    }
+
+    .dotted{
+        width: 10%;
+        z-index: 2;
+    }
+
+    .divide{
+        width: 100%;
+        overflow: hidden;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width : 1500px){
+    .morris1{
+        display: none;
+    }
+}
