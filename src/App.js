@@ -22,10 +22,13 @@ function App() {
   return (
     <div className="app">
       {vid ? <div className='video'>
-        <video autoPlay={"autoplay"}
-          preLoad="auto" loop muted width='100%' height='100%'>
+        <video autoPlay={true}
+          loop={true}
+          controls={false}
+          playsInline
+          muted width='100%' height='100%'>
           <source src={video} type="video/mp4" />
-          my video
+          your browser doesn't support videos
         </video>
       </div> : <div className='animator'>
         <NavBar />
