@@ -8,22 +8,39 @@ import Section6 from './components/Section6';
 import Section7 from './components/Section7';
 import Footer from './Footer';
 import './App.css';
-import { useState, } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import video from '../src/assets/morrisvideo.mp4'
 
 
 function App() {
+  const myRef = useRef()
   const [vid, setVid] = useState(true)
+  const [count, setCount] = useState(0)
 
-  setTimeout(() => {
-    setVid(false)
-  }, 10000);
+  const myTime = () => {
+    if (myRef.current.ended === true) {
+      setVid(false)
+    } else {
+      setVid(true)
+    }
+  }
+
+  useEffect(() => {
+    const time = setTimeout(() => {
+      myTime()
+      setCount(count + 1)
+    }, 1000);
+    return () => {
+      if (vid === false){
+        clearInterval(time)
+      }
+    };
+  }, [count]);
 
   return (
     <div className="app">
       {vid ? <div className='video'>
-        <video autoPlay={true}
-          loop={true}
+        <video ref={myRef} autoPlay={true}
           controls={false}
           playsInline
           muted width='100%' height='100%'>
