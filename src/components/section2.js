@@ -15,15 +15,10 @@ export default function section2() {
                     <p className='p2'>
                         Music has always been his passion ever since he was very young. He enjoys doing quality live mixes on the turntables to all types of genres. He always wants to satisfy his clients and make sure that they are having a good time with quality services.
                     </p>
+
                     <p className='p2'>
-                        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                        With 17 years of experience as a musician, his signature style of mixes and mashups is what makes him pump up the crowd with a high demand to crave more!
                     </p>
-                    <p className='p2'>
-                        With 15 years of experience as a musician, his signature style of mixes and mashups is what makes him pump up the crowd with a high demand to crave more!
-                    </p>
-                    <Button
-                        name='download press kit'
-                    />
                 </div>
                 <div className='dotted'>
                     <DotRev />

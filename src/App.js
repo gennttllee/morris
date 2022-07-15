@@ -57,6 +57,7 @@ function App() {
         <Section4 />
         <Section7 />
         <Footer />
+
       </div>}
     </div>
   );

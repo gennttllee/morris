@@ -7,14 +7,25 @@
   width: 100%;
 }
 
-
 .animator {
   position: relative;
   animation: moving;
   animation-duration: 1s;
+  -webkit-animation: moving;
+  -webkit-animation-duration: 1s;
 }
 
 @keyframes moving {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes moving {
   from {
     opacity: 0;
   }

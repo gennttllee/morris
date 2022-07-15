@@ -8,7 +8,7 @@ export default function Section3() {
             <div className='section3main'>
                 <div className='section3first'>
                     <div className='section3div'>
-                        <p className='p4'><span className='section3span'>Dj since :</span> 1995</p>
+                        <p className='p4'><span className='section3span'>Dj since :</span> 2005</p>
                         <p className='p4'> <span className='section3span'>Category</span>Club DJ / Event DJ</p>
                     </div>
                     <div className='section3div'>
@@ -25,13 +25,7 @@ export default function Section3() {
                 </div>
                 <div className='section3second'>
                     <div className='section3div'>
-                        <p className='p4'><span className='section3span'>Extra info :</span>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                    </div>
-                    <div className='section3btn'>
-                        <div className='btn9'>
-                            <Button name='Technical Rider' />
-                        </div>
-                        <Button name='Hospitality Rider' />
+                        <p className='p4'><span className='section3span'>Extra info :</span>  The modern DJ's role as a performer who creates a seamless and extended mix of music for a dance party or club atmosphere evolved from radio personalities who introduced and played individual selections of recorded music on broadcast radio stations. In 1935, American radio commentator Walter Winchell coined the term "disc jockey" (the combination of disc, referring to disc-shaped phonograph records, and jockey, which is an operator of a machine) to describe radio announcer Martin Block, the first radio announcer to gain widespread fame for playing popular recorded music over the air.</p>
                     </div>
                 </div>
             </div>
